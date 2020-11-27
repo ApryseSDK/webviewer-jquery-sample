@@ -13,8 +13,8 @@ Before you begin, make sure your development environment includes [Node.js](http
 ## Install
 
 ```
-git clone https://github.com/PDFTron/webviewer-angularjs-sample.git
-cd webviewer-angularjs-sample
+git clone https://github.com/PDFTron/webviewer-jquery-sample.git
+cd webviewer-jquery-sample
 npm install
 ```
 
