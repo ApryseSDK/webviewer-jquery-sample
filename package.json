@@ -4,8 +4,7 @@
   "scripts": {
     "start": "npm run server",
     "server": "./node_modules/.bin/supervisor -k -e html,js -i .git/,node_modules/ -- server.js",
-    "postinstall": "npm run download-webviewer",
-    "download-webviewer": "npx @pdftron/webviewer-downloader --webviewerLocation app/lib"
+    "postinstall": "node tools/copy-webviewer-files.js"
   },
   "devDependencies": {
     "body-parser": "1.18.3",
@@ -19,5 +18,8 @@
     "type": "git",
     "url": ""
   },
-  "author": "PDFTron Systems Inc."
+  "author": "PDFTron Systems Inc.",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
 }
