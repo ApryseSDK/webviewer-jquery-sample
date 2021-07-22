@@ -6,7 +6,7 @@ WebViewer({
 }, document.getElementById('viewer'))
 .then(function(instance) {
   const { documentViewer, annotationManager } = instance.Core;
-  // call methods from instance, docViewer and annotManager as needed
+  // call methods from instance, documentViewer and annotationManager as needed
 
   // you can also access major namespaces from the instance as follows:
   // const Tools = instance.Core.Tools;
