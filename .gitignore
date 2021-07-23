@@ -42,3 +42,8 @@ package-lock.json
 # System Files
 .DS_Store
 Thumbs.db
+
+# WebViewer
+server/webviewer-demo.pdf
+client/lib
+client/license-key.js

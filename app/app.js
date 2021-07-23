@@ -5,18 +5,17 @@ WebViewer({
   // initialDoc: '/path/to/my/file.pdf',  // You can also use documents on your server
 }, document.getElementById('viewer'))
 .then(function(instance) {
-  var docViewer = instance.docViewer;
-  var annotManager = instance.annotManager;
-  // call methods from instance, docViewer and annotManager as needed
+  const { documentViewer, annotationManager } = instance.Core;
+  // call methods from instance, documentViewer and annotationManager as needed
 
   // you can also access major namespaces from the instance as follows:
-  // var Tools = instance.Tools;
-  // var Annotations = instance.Annotations;
+  // const Tools = instance.Core.Tools;
+  // const Annotations = instance.Core.Annotations;
 
   // change to dark theme
   instance.setTheme('dark');
 
-  docViewer.on('documentLoaded', function() {
+  documentViewer.addEventListener('documentLoaded', function() {
     // call methods relating to the loaded document
   });
 });
