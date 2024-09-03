@@ -13,7 +13,7 @@ WebViewer({
   // const Annotations = instance.Core.Annotations;
 
   // change to dark theme
-  instance.setTheme('dark');
+  instance.UI.setTheme('dark');
 
   documentViewer.addEventListener('documentLoaded', function() {
     // call methods relating to the loaded document
