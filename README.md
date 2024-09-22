@@ -24,7 +24,7 @@ npm install
 npm start
 ```
 
-It will load `http://localhost:3000/`. The application will automatically reload when possible changes occurred to the source files.
+It will load `http://localhost:3000/`. The application will automatically reload if you change any of the source files.
 
 ## Full API for PDF processing
 
