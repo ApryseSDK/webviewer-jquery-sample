@@ -32,7 +32,7 @@ PDFNetJS Full is a complete browser side PDF SDK, unlocking viewing, parsing and
 
 ```diff
 WebViewer({
-  path: 'lib', // path to the PDFTron 'lib' folder on your server
+  path: 'lib', // path to the Apryse 'lib' folder on your server
   initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/webviewer-demo.pdf',
 +  fullAPI: true
 }, document.getElementById('viewer'))

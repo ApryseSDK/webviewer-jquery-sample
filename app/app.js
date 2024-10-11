@@ -1,6 +1,6 @@
 /* eslint-disable-next-line no-undef */
 WebViewer({
-  path: 'lib', // path to the PDFTron 'lib' folder on your server
+  path: 'lib', // path to the Apryse 'lib' folder on your server
   // licenseKey: 'Insert commercial license key here after purchase',
   initialDoc: 'https://pdftron.s3.amazonaws.com/downloads/pl/demo-annotated.pdf',
   // initialDoc: '/path/to/my/file.pdf',  // You can also use documents on your server

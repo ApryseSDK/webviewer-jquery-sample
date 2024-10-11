@@ -11,7 +11,7 @@
     "type": "git",
     "url": ""
   },
-  "author": "PDFTron Systems Inc.",
+  "author": "Apryse Systems Inc.",
   "devDependencies": {
     "@eslint/js": "^9.10.0",
     "eslint": "^9.10.0",
@@ -23,7 +23,7 @@
     "supervisor": "^0.12.0"
   },
   "dependencies": {
-    "@pdftron/webviewer": "^10.11.1",
+    "@pdftron/webviewer": "^10.12.0",
     "concurrently": "^8.2.2"
   }
 }
