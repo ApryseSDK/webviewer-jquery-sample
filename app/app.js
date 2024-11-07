@@ -14,7 +14,8 @@ WebViewer({
     // const Annotations = instance.Core.Annotations;
 
     // change to dark theme
-    instance.UI.setTheme('dark');
+    const theme = instance.UI.Theme;
+    instance.UI.setTheme(theme.DARK);
 
     documentViewer.addEventListener('documentLoaded', function() {
     // call methods relating to the loaded document
